@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fafafa;
+  color: #262626;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #dbdbdb;
+  background: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.icons i {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.stories {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.story {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.story img {
+  border-radius: 50%;
+  border: 2px solid #c13584;
+  padding: 2px;
+}
+
+.story p {
+  font-size: 12px;
+}
+
+.feed {
+  padding: 16px;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-header img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+.post-icons {
+  padding: 10px;
+}
+
+.post-icons i {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.likes, .caption {
+  padding: 0 10px 10px;
+  font-size: 14px;
+}
